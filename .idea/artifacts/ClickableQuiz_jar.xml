@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ClickableQuiz:jar">
+    <output-path>S:/Minecraft/Bukkit Server/Spigot 1.10/plugins/update</output-path>
+    <root id="archive" name="ClickableQuiz.jar">
+      <element id="module-output" name="ClickableQuiz" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.0.4/kotlin-stdlib-1.0.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-runtime/1.0.4/kotlin-runtime-1.0.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/mkremins/fanciful/0.4.0-SNAPSHOT/fanciful-0.4.0-20160727.211139-1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

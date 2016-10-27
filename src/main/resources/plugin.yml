@@ -1,0 +1,9 @@
+name: ClickableQuiz
+version: ${project.version}
+main: me.ialistannen.clickablequiz.ClickableQuiz
+authors: [I_Al_Istannen]
+description: A clickable Quiz plugin
+#commands:
+#  quiz:
+#    description: "Desc"
+#    usage: "Usage"

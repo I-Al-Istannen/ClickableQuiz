@@ -1,0 +1,75 @@
+# The language tag. For it to work, you must create a file called "Messages_<tag>.properties" in the "language" folder.
+# The tag is the language tag: "en" for english, "de" for german and so on.
+# After you created the file and translated it, you need to enter your tag below.
+language: "en"
+
+
+# The quizzes
+quizzes:
+  # Just some unique value
+  quiz:
+    # The name of the quiz. Spaces are allowed.
+    name: "Start Quiz"
+    # The cooldown until you can take it again
+    cooldown: "10s"
+    # The minimum percentage needed to pass. A decimal number between 0 and 1 inclusive.
+    # 50 % or more needed to pass
+    minPercentage: 0.50
+    # If true, it shows the player which answers were incorrect after they finished the quiz
+    showAnswers: true
+    # The questions
+    questions:
+      # Some unique key. Maybe the number
+      one:
+        # The actual question the user will see
+        question: "&6This is a question.&r"
+        # The possible answers
+        answers:
+          # Some unique key. Maybe the number
+          one:
+            # The answer the user will see
+            answer: "  &b&l1. &7&oYea, it is"
+            # Whether this answer is correct. This allows for multiple correct answers.
+            isCorrect: true
+          # Some unique key again.
+          two:
+            # Same as above
+            answer: "  &b&l2. &7&oNo, it isn't"
+            # Same as above
+            isCorrect: false
+          # You can make as many new answers as you like
+      # The second question. Some unique key. Same as above 
+      two:
+        question: "&6This is a question.&r"
+        answers:
+          one:
+            answer: "  &b&l1. &7&oYea, it is"
+            isCorrect: true
+          two:
+            answer: "  &b&l2. &7&oNo, it isn't"
+            isCorrect: false
+  # Some unique key. The second quiz. Same as above.
+  secondQuiz:
+    name: "Second Quiz"
+    cooldown: "10s"
+    minPercentage: 0.50
+    showAnswers: false
+    questions:
+      one:
+        question: "&6This is a question too.&r"
+        answers:
+          one:
+            answer: "  &b&l1. &7&oYea, it is!"
+            isCorrect: true
+          two:
+            answer: "  &b&l2. &7&oNo, it isn't!"
+            isCorrect: false
+      two:
+        question: "&6This is a question.&r"
+        answers:
+          one:
+            answer: "  &b&l1. &7&oYea, it is!"
+            isCorrect: true
+          two:
+            answer: "  &b&l2. &7&oNo, it isn't!"
+            isCorrect: false
