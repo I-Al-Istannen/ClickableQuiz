@@ -6,7 +6,7 @@
 
     <groupId>me.ialistannen</groupId>
     <artifactId>ClickableQuiz</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>ClickableQuiz</name>
@@ -112,9 +112,18 @@
 
         <dependency>
             <groupId>com.perceivedev</groupId>
-            <artifactId>perceivecore</artifactId>
-            <version>0.0.1</version>
-            <scope>provided</scope>
+            <artifactId>Command</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.perceivedev</groupId>
+            <artifactId>Language</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.perceivedev</groupId>
+            <artifactId>Utilities</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
         
         <dependency>

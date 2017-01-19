@@ -29,7 +29,16 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.avaje:ebean:2.8.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.persistence:persistence-api:1.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.yaml:snakeyaml:1.15" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: com.perceivedev:perceivecore:0.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.perceivedev:Command:1.0.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.perceivedev:ModuleSystem:1.0.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.perceivedev:CorePlugin:1.0.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.perceivedev:Reflection:1.0.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.perceivedev:Language:1.0.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.perceivedev:Utilities:1.0.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.junit.jupiter:junit-jupiter-api:5.0.0-M3" level="project" />
+    <orderEntry type="library" name="Maven: org.opentest4j:opentest4j:1.0.0-M1" level="project" />
+    <orderEntry type="library" name="Maven: org.junit.platform:junit-platform-commons:1.0.0-M3" level="project" />
+    <orderEntry type="library" name="Maven: com.perceivedev:Config:1.0.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.0.4" level="project" />
     <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-runtime:1.0.4" level="project" />
   </component>

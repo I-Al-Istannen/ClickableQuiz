@@ -1,8 +1,8 @@
 package me.ialistannen.clickablequiz.util
 
 import com.perceivedev.perceivecore.command.CommandResult
-import com.perceivedev.perceivecore.util.ArrayUtils
-import com.perceivedev.perceivecore.util.ItemFactory
+import com.perceivedev.perceivecore.utilities.collections.ArrayUtils
+import com.perceivedev.perceivecore.utilities.item.ItemFactory
 import me.ialistannen.clickablequiz.ClickableQuiz
 import me.ialistannen.clickablequiz.data.player.addCooldown
 import me.ialistannen.clickablequiz.data.player.getCooldownTimeLeftWords

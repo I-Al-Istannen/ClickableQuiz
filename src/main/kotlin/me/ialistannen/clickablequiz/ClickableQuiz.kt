@@ -10,7 +10,6 @@ import me.ialistannen.clickablequiz.conversation.ConversationManager
 import me.ialistannen.clickablequiz.data.player.CooldownManager
 import me.ialistannen.clickablequiz.data.quiz.QuizManager
 import org.bukkit.plugin.java.JavaPlugin
-import java.io.File
 import java.util.*
 
 /**
@@ -47,7 +46,7 @@ class ClickableQuiz : JavaPlugin() {
          * @param formattingObjects The formatting objects
          */
         fun <T : Any> tr(key: String, vararg formattingObjects: T): String {
-            return instance.language.tr(key, *formattingObjects)
+            return instance.language.translate(key, *formattingObjects)
         }
 
         /**
@@ -56,7 +55,7 @@ class ClickableQuiz : JavaPlugin() {
          * @param key The key for the language file
          */
         fun tr(key: String): String {
-            return instance.language.tr(key)
+            return instance.language.translate(key)
         }
     }
 
@@ -66,7 +65,7 @@ class ClickableQuiz : JavaPlugin() {
 
         I18N.copyDefaultFiles(this, false, "me.ialistannen.clickablequiz.language")
 
-        File(dataFolder, "config.yml").delete()
+//        File(dataFolder, "config.yml").delete()
 
         saveDefaultConfig()
 
@@ -81,7 +80,7 @@ class ClickableQuiz : JavaPlugin() {
         reloadConfig()
 
         // unregister command using old language file, to allow re-registering
-        CommandSystemUtil.unregisterCommand(language.tr("command.quiz.keyword"))
+        CommandSystemUtil.unregisterCommand(language.translate("command.quiz.keyword"))
 
         language.reload()
         language.language = Locale.forLanguageTag(config.getString("language"))
