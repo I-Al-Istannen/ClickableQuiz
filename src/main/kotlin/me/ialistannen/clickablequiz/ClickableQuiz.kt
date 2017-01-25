@@ -1,10 +1,10 @@
 package me.ialistannen.clickablequiz
 
-import com.perceivedev.perceivecore.command.CommandSystemUtil
-import com.perceivedev.perceivecore.command.CommandTree
-import com.perceivedev.perceivecore.command.DefaultCommandExecutor
-import com.perceivedev.perceivecore.command.DefaultTabCompleter
-import com.perceivedev.perceivecore.language.I18N
+import me.ialistannen.bukkitutilities.command.CommandSystemUtil
+import me.ialistannen.bukkitutilities.command.CommandTree
+import me.ialistannen.bukkitutilities.command.DefaultCommandExecutor
+import me.ialistannen.bukkitutilities.command.DefaultTabCompleter
+import me.ialistannen.bukkitutilities.language.I18N
 import me.ialistannen.clickablequiz.command.CommandQuiz
 import me.ialistannen.clickablequiz.conversation.ConversationManager
 import me.ialistannen.clickablequiz.data.player.CooldownManager

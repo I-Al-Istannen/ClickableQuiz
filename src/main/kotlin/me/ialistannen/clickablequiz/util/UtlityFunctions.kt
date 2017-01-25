@@ -1,6 +1,6 @@
 package me.ialistannen.clickablequiz.util
 
-import com.perceivedev.perceivecore.utilities.text.JSONMessage
+import me.ialistannen.bukkitutilities.utilities.text.JSONMessage
 import org.bukkit.ChatColor
 import org.bukkit.entity.Player
 import java.util.regex.Pattern

@@ -1,9 +1,9 @@
 package me.ialistannen.clickablequiz.command.admin
 
-import com.perceivedev.perceivecore.command.CommandResult
-import com.perceivedev.perceivecore.command.CommandSenderType
-import com.perceivedev.perceivecore.command.TranslatedCommandNode
-import com.perceivedev.perceivecore.command.argumentmapping.ConvertedParams
+import me.ialistannen.bukkitutilities.command.CommandResult
+import me.ialistannen.bukkitutilities.command.CommandSenderType
+import me.ialistannen.bukkitutilities.command.TranslatedCommandNode
+import me.ialistannen.bukkitutilities.command.argumentmapping.ConvertedParams
 import me.ialistannen.clickablequiz.ClickableQuiz
 import me.ialistannen.clickablequiz.util.QuizRunner
 import org.bukkit.command.CommandSender

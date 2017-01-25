@@ -1,6 +1,6 @@
 package me.ialistannen.clickablequiz.data.parser
 
-import com.perceivedev.perceivecore.utilities.time.DurationParser
+import me.ialistannen.bukkitutilities.utilities.time.DurationParser
 import me.ialistannen.clickablequiz.data.quiz.Question
 import me.ialistannen.clickablequiz.data.quiz.Quiz
 import org.bukkit.configuration.ConfigurationSection

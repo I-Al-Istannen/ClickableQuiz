@@ -2,6 +2,7 @@ name: ClickableQuiz
 version: ${project.version}
 main: me.ialistannen.clickablequiz.ClickableQuiz
 authors: [I_Al_Istannen]
+depend: ["BukkitUtilities"]
 description: A clickable Quiz plugin
 #commands:
 #  quiz:
