@@ -1,5 +1,5 @@
 # ClickableQuiz
-A small lerning plugin for Kotlin. Allows clickable quizzes in chat.
+A small learning plugin for Kotlin. Allows clickable quizzes in chat.
 
 ## "Disclaimer"
 This plugin was written in [Kotlin](http://kotlinlang.org/) and mainly made for me to learn the language a bit better.
